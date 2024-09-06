@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GHIPY-INDEX-PAGE</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>GHIPY</h1>
+    <button onclick="main()" id="home-btn">HOME</button>
+    <div id="use-btn">Click On <strong><u>HOME</u></strong> to see the Data</div>
+    <nav id="nav-bar">
+        <div id="input-container">
+            <input type="text" id="inputEl" placeholder="Search Gif Here" value="">
+        </div>
+        <div id="gif-stic-container">
+            <button onclick="getgif()" id="gif">GIF</button>
+            <button onclick="getsticker()" id="sticker">STICKER</button>
+        </div>
+    </nav>
+    
+    <div id="content-display"></div>
+</body>
+</html>
+<script src="./script.js"></script>
